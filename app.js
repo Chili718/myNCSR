@@ -79,13 +79,13 @@ ham.addEventListener("click", ()=>{
 });
 
 //removes the preloader when the page is loaded by adding the 'loaded' class
-/*
+
 window.addEventListener('load', () => {
 
   const preload = document.querySelector('.preloader');
   preload.classList.add('loaded');
 
 });
-*/
+
 //would normally make an app fucntion but I only have one fucntion to call
 nivber();

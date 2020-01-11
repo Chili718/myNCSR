@@ -148,6 +148,17 @@ Preloader
 
 }
 
+.brokercheck{
+
+  position: fixed;
+  background-color: #ffffff;
+  padding: 5px;
+  right: 0;
+  bottom: 0;
+  transform: translateX(-50px);
+
+}
+
 /**************************************************************************
 Navbar and Burger
 **************************************************************************/
@@ -1381,6 +1392,12 @@ Other Devices CSS
     width: 70vw;
     max-width: 400px;
     line-height: 1.5rem;
+
+  }
+
+  .brokercheck{
+
+    display: none;
 
   }
 
